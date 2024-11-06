@@ -153,6 +153,6 @@
     }
     img {
         max-width: 100%; /* Görsellerin ekrana sığması */
-        height: auto;
+        height: 3200px;
     }
 }
