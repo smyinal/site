@@ -46,9 +46,9 @@
 .car-container {
     position: relative;
     width: 100%;
-    height: 500px; /* Görselin boyutuna göre yüksekliği ayarlayın */
+    height: 1000px; /* Görselin boyutuna göre yüksekliği ayarlayın */
     overflow: hidden;
-    top: 3500px;
+    top: 12500px;
     background-color: transparent; /* Arka plan rengi */
 }
 
@@ -56,8 +56,8 @@
 .moving-car {
     position: absolute; /* Arabanın konumlandırılması için */
     top: 0; /* Görselin üst kısmında başlayacak */
-    width: 500px; /* Arabanın genişliği */
-    height: 500px; /* Arabanın yüksekliği */
+    width: 1000px; /* Arabanın genişliği */
+    height: 1000px; /* Arabanın yüksekliği */
     animation: moveCar 5s linear infinite; /* Sürekli hareket */
 }
 
@@ -67,7 +67,7 @@
         left: 100%; /* Ekranın sağ dışından başlar */
     }
     100% {
-        left: -900px; /* Ekranın sol dışına çıkar */
+        left: -2500px; /* Ekranın sol dışına çıkar */
     }
 }
 .scrollable-image {
@@ -93,7 +93,7 @@
 }
 
 .moving-car {
-    width: 500px; /* Araba boyutunu ayarlama */
+    width: 1000px; /* Araba boyutunu ayarlama */
     animation: moveCar 5s linear infinite; /* Araba hareket animasyonu */
 }
 
@@ -142,17 +142,4 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-/* Genel mobil uyum */
-@media (max-width: 768px) {
-    .car-container {
-        height: 500px; /* Mobilde araba görselinin daha küçük olması */
-    }
-    .comment-section {
-        padding: 10px; /* Mobilde daha sıkışık düzen */
-    }
-    img {
-        max-width: 100%; /* Görsellerin ekrana sığması */
-        height: 3200px;
-    }
 }
