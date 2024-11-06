@@ -3,7 +3,11 @@
     width: 100%;             /* Görselin ekran genişliğine göre tam sığması */
     overflow: hidden;        /* Taşma durumunu engeller */
 }
-
+body {
+    min-height: 100vh; /* Sayfanın minimum yüksekliği ekran yüksekliği kadar olur */
+    max-height: 100vh; /* Sayfanın maksimum yüksekliği ekran yüksekliği kadar olur */
+    overflow-y: auto; /* Taşan içerik varsa dikey kaydırmayı aktif eder */
+}
 .long-image {
     width: 100%;             /* Görselin tam genişliğe sığmasını sağlar */
     display: block;
