@@ -143,4 +143,16 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
+/* Genel mobil uyum */
+@media (max-width: 768px) {
+    .car-container {
+        height: 500px; /* Mobilde araba görselinin daha küçük olması */
+    }
+    .comment-section {
+        padding: 10px; /* Mobilde daha sıkışık düzen */
+    }
+    img {
+        max-width: 100%; /* Görsellerin ekrana sığması */
+        height: auto;
+    }
+}
