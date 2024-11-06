@@ -8,7 +8,11 @@
     width: 100%;             /* Görselin tam genişliğe sığmasını sağlar */
     display: block;
 }
-
+.long-image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Taşan kısımları gizler */
+}
 /* Yorum alanı */
 .comment-section {
     padding: 20px;
